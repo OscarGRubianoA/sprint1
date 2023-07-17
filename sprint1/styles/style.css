@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    background-image: url(../assets/images/background_index_crepes.jpg);
+    background-repeat: no-repeat;
+    background-size: 300% 600%;
+    background-size: cover;
+    height: 72.8vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    color: white;
+    
+
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+main h1{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+main img{
+    height: 5rem;
+}
+h1,h2{
+    text-align: center;
+
+}
+header h2{
+    padding: 1rem;
+    color: beige;
+    background-color: brown;
+}
+header h2:hover{
+    text-decoration: underline;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 1rem 1rem 1rem;
+    color: brown;
+    background-color: beige;
+    
+}
+header div img{
+    height: 4rem;
+}
+header div div{
+    display: flex;
+    gap: .1rem;
+}
+span{
+    text-align: center;
+    position: relative;
+    left: 4rem;
+}
