@@ -5,7 +5,7 @@ function imc(peso, altura) {
     }else if(imc > 18.5 && imc <= 25){
       console.log ("Normal")
     }else if(imc>25){
-      console.log ("Sobrepeso")
+      console.log (" Sobrepeso ")
     }
   }
   
