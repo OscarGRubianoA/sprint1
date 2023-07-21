@@ -66,3 +66,6 @@ span{
     position: relative;
     left: 4rem;
 }
+input[type="text"]{
+    width: 30rem;
+}
